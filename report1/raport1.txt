@@ -1,0 +1,62 @@
+rules:
+When it is scheduled feeding time and the feeder is
+empty, regardless of animal presence
+
+
+When it is not scheduled feeding time, animals are
+present, and the feeder is empty
+
+
+Experiment Steps:
+1 Fill out the given truth table based on the
+system specifications provided
+
+2 Write the Boolean function Dispense_Food(T,
+A, F) in the sum-of-minterms form
+
+3 Implement (draw) the corresponding circuit
+(e.g., in CircuitVerse) using NOT, AND, and 
+OR gates
+
+
+
+
+solution:
+
+feeding time ---- empty feeder --- animal present=====output
+T			A		F
+1       	        1		0		1  
+1 			1		1		1
+1			0		1		0
+1			0		0		0
+0			1		1  		1
+0			1		0		0
+0			0		1		0
+0			0		0		0
+
+
+
+T=0,A=1,F=1
+T=1,A=1,F=0
+T=1,A=1,F=1
+
+	
+T^AF+TAF^+TAF
+
+
+
++ OR
+
+
+if A 1 ,T OR F
+if A 0 , 0
+
+A(T+F)
+empty feeder AND (feeding time OR animal present)
+
+
+
+
+
+
+
