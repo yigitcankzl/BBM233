@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Wed Dec 18 20:19:36 2024
+[*]
+[dumpfile] "C:\Users\Orhan\Documents\GitHub\bbm233\2024\FinalProject\starter_code\out.vcd"
+[savefile] "C:\Users\Orhan\Documents\GitHub\bbm233\2024\FinalProject\starter_code\cheat_success.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*0.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 197
+[signals_width] 134
+[sst_expanded] 1
+[sst_vpaned_height] 153
+@28
+llm_tb.a1
+llm_tb.a2
+llm_tb.a3
+llm_tb.clock
+llm_tb.deception_out
+llm_tb.expansion_out
+llm_tb.green
+llm_tb.red
+@22
+llm_tb.state[3:0]
+llm_tb.timer[5:0]
+@28
+llm_tb.yellow
+[pattern_trace] 1
+[pattern_trace] 0
